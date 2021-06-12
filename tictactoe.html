@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content= "IE=edge">
+    <meta name="viewport" content="width=device-data, initial-scale-1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mystyle.css">
+
+<style>
+    h1{
+        font-size: 56px;
+    }
+    img{
+        height: 200px;
+        width: 200px;
+        margin-bottom: 50px;
+    }
+    img3{
+        max-width: 100%
+    }
+    
+
+    body{
+        background-color:   lightblue;
+    }
+</style>
+</head>
+<body>
+    <div class="flex-container">
+  
+</div>
+    <header>
+        <h1>TicTacToe</h1>
+        
+        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tic_tac_toe.svg/1200px-Tic_tac_toe.svg.png" alt="TicTacToe Board" class = "center">
+
+    </header>
+    <!-- 
+    <nav>
+        <a href="">About</a>
+        <a href="">Projects</a>
+        <a href="">Skills</a>
+        <a href="">Contact Me</a>
+        <a href="">TicTacToe</a>
+    </nav>
+-->
+    <main>
+        
+         
+        <p>
+          In our group, we created a tic-tac-toe game in order to develop our skills in JavaScript. We first tried to create this game in Python during our bootcamp of the internship, and then recreated it within our own group using JavaScript.
+        </p>
+        <p>
+          All the strings shown are put in an array which are then joined together by “.join(‘\n’)”
+          after it’s printed on the console, it will know where to place the X or O on the board.
+         </p> 
+         <img src = "https://codeguppy.com/site/tutorials/images/tic-tac-toe.png" alt = "code" class = "image2">
+         not our code, but an example
+         <p>
+          When Player X has made their move, this is recorded in the array.
+          </p>
+          <p>
+          We have two functions that replace the numbers on the board and in the array with the letter of the player who chose the space/number. This function uses the “.replace” method to replace the space with the number used as an argument with either an ‘X’ or and ‘O,’ depending on the player.
+          </p>
+          <div class = "container">
+          <p>
+              <div class = text>
+          The updateBoard function uses the ‘this’ keyword. At the end, after having checked all the cases, we replace the number in the array at the position [i][j], whatever that may be, with an ‘X’ or an ‘O,’ depending on who the active player is at the time. 
+        </div>
+        </p>
+        
+        <img src = "https://upload.wikimedia.org/wikipedia/commons/d/da/TicTacToe-152374698XOp.gif" alt = "gif" class = "image">
+    </div>
+    </main>
+</body>
+</html>

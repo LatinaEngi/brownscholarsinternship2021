@@ -1,0 +1,48 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color:black;
+    margin-left: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif, ‘Arial Narrow Bold’,
+  }
+  .center {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  }
+  main{
+    color: black;
+    margin-left: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif, ‘Arial Narrow Bold’,
+  }
+  .image2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  .image{
+     margin-left: 10px; 
+     flex-basis: 40%;
+     
+  }
+  .text{
+    font-size: 10px;
+    padding-right: 10px;
+    
+    text-align: left;
+  }
+  .container{
+
+  display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+  
+  
